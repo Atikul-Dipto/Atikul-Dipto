@@ -1,0 +1,60 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Atikul Islam — Data Analyst, Analytics Engineer, Supply Chain">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020d1b"/>
+      <stop offset="1" stop-color="#04142a"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4f9ff"/>
+      <stop offset="1" stop-color="#5ec7ff"/>
+    </linearGradient>
+    <radialGradient id="fade" cx="0.82" cy="0.28" r="0.62">
+      <stop offset="0" stop-color="#5ec7ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5ec7ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#5ec7ff" fill-opacity="0.16"/>
+    </pattern>
+    <mask id="gridMask">
+      <rect width="1200" height="300" fill="url(#grid)"/>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#fade)"/>
+  <rect width="1200" height="300" fill="#5ec7ff" mask="url(#gridMask)"/>
+
+  <!-- circuit / pipeline motif -->
+  <g stroke="#5ec7ff" stroke-width="1.4" fill="none" opacity="0.55">
+    <path d="M 760 46 H 860 V 92 H 960"/>
+    <path d="M 960 92 H 1060 V 46 H 1150"/>
+    <path d="M 860 92 V 150 H 940"/>
+    <path d="M 940 150 H 1030 V 196 H 1150"/>
+    <path d="M 780 196 H 900 V 240 H 1000"/>
+  </g>
+  <g fill="#5ec7ff">
+    <circle cx="760" cy="46" r="4"/>
+    <circle cx="960" cy="92" r="4"/>
+    <circle cx="1060" cy="46" r="4"/>
+    <circle cx="1150" cy="46" r="3.2"/>
+    <circle cx="940" cy="150" r="4"/>
+    <circle cx="1030" cy="196" r="4"/>
+    <circle cx="1150" cy="196" r="3.2"/>
+    <circle cx="780" cy="196" r="4"/>
+    <circle cx="900" cy="240" r="4"/>
+    <circle cx="1000" cy="240" r="3.2"/>
+  </g>
+  <g fill="#9edfff" opacity="0.9">
+    <circle cx="860" cy="92" r="3"/>
+  </g>
+
+  <text x="80" y="70" font-family="Consolas, 'Cascadia Code', 'SFMono-Regular', Menlo, monospace" font-size="16" fill="#5ec7ff" opacity="0.85">// building data systems that drive decisions</text>
+
+  <text x="78" y="168" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" fill="url(#title)" letter-spacing="1">Atikul Islam</text>
+
+  <rect x="80" y="192" width="560" height="2" fill="#5ec7ff" opacity="0.4"/>
+
+  <text x="80" y="228" font-family="Consolas, 'Cascadia Code', 'SFMono-Regular', Menlo, monospace" font-size="19" fill="#dfeaf5" letter-spacing="2">DATA ANALYST · ANALYTICS ENGINEER · SUPPLY CHAIN</text>
+
+  <text x="80" y="260" font-family="Consolas, 'Cascadia Code', 'SFMono-Regular', Menlo, monospace" font-size="14" fill="#8ca7bf">10M+ daily transactions analyzed · dashboards that drive operations</text>
+</svg>

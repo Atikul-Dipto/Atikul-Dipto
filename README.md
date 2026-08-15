@@ -1,96 +1,143 @@
-# Hi there! 👋 I'm Atikul Islam
+<div align="center">
 
-**Data Analyst | Analytics Engineer | Supply Chain Enthusiast**
+<img src="./assets/banner.svg" width="100%" alt="Atikul Islam — Data Analyst, Analytics Engineer, Supply Chain" />
 
-Welcome to my GitHub! I'm passionate about transforming raw data into actionable insights. With a background in Economics and hands-on experience analyzing 10M+ daily transactional records, I build dashboards and data systems that drive business decisions.
+<br/>
 
----
+<a href="https://atikul-dipto.github.io/">portfolio</a> ·
+<a href="https://www.linkedin.com/in/atikul-islam-0a77561b3/">linkedin</a> ·
+<a href="mailto:atikuldipto111@gmail.com">email</a>
 
-## 🎯 What I Do
+</div>
 
-- **Data Analytics & Visualization**: SQL, Python, Power BI, Tableau
-- **Dashboard Development**: Building real-time KPI tracking systems
-- **Supply Chain Analytics**: Exploring logistics optimization and demand forecasting
-- **Full-Stack Data Projects**: From data ingestion to interactive visualizations
+<br/>
 
----
+## 01 · Overview
 
-## 💼 Featured Projects
+Economics graduate turned data practitioner. I take raw, messy operational data and turn it into
+systems people actually use to make decisions — dashboards, pipelines, and reports that hold up
+under 10M+ rows a day.
 
-### 🚚 [Logistics Operations Portal](https://github.com/Atikul-Dipto/logistics-portal)
-A multi-page Streamlit dashboard for e-commerce logistics analytics. Tracks shipments, inventory, and delivery performance across 5 warehouses and 5 couriers.
+```mermaid
+flowchart LR
+    A[("Economics degree")] --> B{{"Data Analyst\nUS Bangla Group"}}
+    B --> C[("10M+ txns / day")]
+    C --> D[/"Dashboards + KPIs"/]
+    D --> E(["Business decisions"])
+```
 
-**Tech**: Python • Streamlit • Pandas • Plotly  
-**Highlights**: Real-time KPI dashboards, multi-warehouse analytics, courier performance tracking
+<br/>
 
-### 🗺️ [Live Logistics Flow Map](https://github.com/Atikul-Dipto/logistics-flow-map)
-Interactive React + D3 visualization that animates real shipment flows across a Bangladesh map with live DBSCAN clustering and graph centrality analysis.
+## 02 · Stack
 
-**Tech**: React • D3 • Canvas • DBSCAN  
-**Highlights**: Client-side data processing, particle animation, geospatial analytics  
-**Live Demo**: [View it here](https://atikul-dipto.github.io/logistics-flow-map/)
+```mermaid
+flowchart LR
+    subgraph Languages
+        L1[Python]
+        L2[SQL]
+        L3[JavaScript]
+    end
+    subgraph "Data"
+        D1[Pandas]
+        D2[NumPy]
+        D3[PostgreSQL]
+        D4[Excel]
+    end
+    subgraph Visualization
+        V1[Power BI]
+        V2[Tableau]
+        V3[Metabase]
+        V4[Plotly]
+        V5[D3.js]
+    end
+    subgraph Frameworks
+        F1[Streamlit]
+        F2[React]
+        F3[Vite]
+    end
+    subgraph Platforms
+        P1[Git / GitHub]
+        P2[Jupyter]
+        P3[SurveyCTO]
+    end
+```
 
-### 🌐 [Personal Portfolio](https://github.com/Atikul-Dipto/Atikul-Dipto.github.io)
-A modern, interactive portfolio website showcasing my work and experience with animated background, interactive skill tags, and live project showcase.
+<br/>
 
-**Tech**: React • Vite • Glassmorphism Design  
-**Live Site**: [atikul-dipto.github.io](https://atikul-dipto.github.io/)
+## 03 · Timeline
 
----
+```mermaid
+timeline
+    title Career & Education
+    2019 : Started BSS in Economics — East West University
+    2024 : R&D Intern @ ARCED Foundation
+         : Completed BSS in Economics
+    2025 : Associate @ Inspira Advisory and Consulting
+         : Data Analyst @ US Bangla Group
+```
 
-## 🛠️ Tech Stack
+**Data Analyst** · US Bangla Group · *Jul 2025 – Present*
+Analyzing 10M+ daily e-commerce transactions, building operational KPI dashboards, cross-functional data validation.
 
-**Languages**: Python, SQL, JavaScript  
-**Data Tools**: Pandas, NumPy, PostgreSQL, Excel  
-**Visualization**: Power BI, Tableau, Metabase, Plotly, D3  
-**Frameworks**: Streamlit, React, Vite  
-**Platforms**: Git, GitHub, Jupyter Notebook, SurveyCTO  
+**Associate** · Inspira Advisory and Consulting · *Jan 2025 – Jul 2025*
+Market research, business evaluation, evidence-based strategic insights, client-facing reporting.
 
----
+**R&D Intern** · ARCED Foundation · *Apr 2024 – Jul 2024*
+Data quality audits for funded research, survey data management with SurveyCTO.
 
-## 📊 Professional Experience
+<br/>
 
-- **Data Analyst** @ US Bangla Group (Jul 2025 – Present)
-  - Analyze 10M+ daily e-commerce transactions
-  - Build operational KPI dashboards
-  - Cross-functional data validation and reporting
+## 04 · Projects
 
-- **Associate** @ Inspira Advisory and Consulting (Jan 2025 – Jul 2025)
-  - Market research and business evaluation
-  - Evidence-based strategic insights
-  - Client-facing reporting and analysis
+```
+$ cd logistics-operations-portal
+```
+Multi-page Streamlit dashboard for e-commerce logistics analytics — shipments, inventory, and
+delivery performance tracked across 5 warehouses and 5 couriers.
 
-- **R&D Intern** @ ARCED Foundation (Apr 2024 – Jul 2024)
-  - Data quality audits for funded research
-  - Survey data management with SurveyCTO
+`Python` `Streamlit` `Pandas` `Plotly` — [repo →](https://github.com/Atikul-Dipto/logistics-portal)
 
----
+```
+$ cd live-logistics-flow-map
+```
+React + D3 visualization animating real shipment flows across a Bangladesh map, with live DBSCAN
+clustering and graph centrality analysis running client-side.
 
-## 🎓 Education
+`React` `D3` `Canvas` `DBSCAN` — [repo →](https://github.com/Atikul-Dipto/logistics-flow-map) · [demo →](https://atikul-dipto.github.io/logistics-flow-map/)
 
-**Bachelor of Social Science in Economics**  
-East West University (2019 – 2024)  
-Coursework: Applied Econometrics, Game Theory, Labor Economics, Project Analysis
+```
+$ cd personal-portfolio
+```
+Interactive portfolio site with an animated particle background, live project showcase, and
+glassmorphism UI.
 
-**Certifications**:
-- Intermediate Python (DataCamp)
-- Data Manipulation with pandas (DataCamp)
-- Advanced AI+ Prompt Engineering (NetCom Learning)
+`React` `Vite` — [repo →](https://github.com/Atikul-Dipto/Atikul-Dipto.github.io) · [live →](https://atikul-dipto.github.io/)
 
----
+<br/>
 
-## 🚀 What's Next
+## 05 · Trajectory
 
-I'm currently building expertise in **Supply Chain Management** — combining data analytics with procurement, logistics, and demand planning. My goal is to apply analytics-driven insights to real-world supply chain optimization.
+```mermaid
+flowchart LR
+    A(["Data Analytics\n(current)"]) -.-> B(["Supply Chain Management\n(in progress)"])
+    B --> C(["Analytics-driven\nsupply chain optimization"])
+```
 
----
+Currently building depth in supply chain management — procurement, logistics, demand planning —
+to pair with the analytics side.
 
-## 📫 Let's Connect
+<br/>
 
-- **Portfolio**: [atikul-dipto.github.io](https://atikul-dipto.github.io/)
-- **LinkedIn**: [in/atikul-islam-0a77561b3](https://www.linkedin.com/in/atikul-islam-0a77561b3/)
-- **Email**: [atikuldipto111@gmail.com](mailto:atikuldipto111@gmail.com)
+## 06 · Connect
 
----
+```js
+const contact = {
+  portfolio: "atikul-dipto.github.io",
+  linkedin:  "in/atikul-islam-0a77561b3",
+  email:     "atikuldipto111@gmail.com",
+};
+```
 
-*"Data tells stories. My job is to help people understand them."*
+<div align="center">
+<sub>data tells stories — my job is to help people understand them</sub>
+</div>
