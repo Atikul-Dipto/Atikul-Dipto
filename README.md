@@ -4,9 +4,11 @@
 
 <br/>
 
-<a href="https://atikul-dipto.github.io/">portfolio</a> ·
-<a href="https://www.linkedin.com/in/atikul-islam-0a77561b3/">linkedin</a> ·
-<a href="mailto:atikuldipto111@gmail.com">email</a>
+<a href="https://atikul-dipto.github.io/"><img src="./assets/btn-portfolio.svg" height="44" alt="Portfolio" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/atikul-islam-0a77561b3/"><img src="./assets/btn-linkedin.svg" height="44" alt="LinkedIn" /></a>
+&nbsp;
+<a href="mailto:atikuldipto111@gmail.com"><img src="./assets/btn-email.svg" height="44" alt="Email" /></a>
 
 </div>
 
@@ -108,6 +110,14 @@ const contact = {
   email:     "atikuldipto111@gmail.com",
 };
 ```
+
+<p align="center">
+<a href="https://atikul-dipto.github.io/"><img src="./assets/btn-portfolio.svg" height="44" alt="Portfolio" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/atikul-islam-0a77561b3/"><img src="./assets/btn-linkedin.svg" height="44" alt="LinkedIn" /></a>
+&nbsp;
+<a href="mailto:atikuldipto111@gmail.com"><img src="./assets/btn-email.svg" height="44" alt="Email" /></a>
+</p>
 
 <div align="center">
 <sub>data tells stories — my job is to help people understand them</sub>
