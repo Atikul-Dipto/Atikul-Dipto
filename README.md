@@ -19,6 +19,16 @@ systems people actually use to make decisions — dashboards, pipelines, and rep
 under 10M+ rows a day.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {
+  'background':'#020d1b',
+  'primaryColor':'#0a1a2f',
+  'primaryTextColor':'#dfeaf5',
+  'primaryBorderColor':'#5ec7ff',
+  'lineColor':'#5ec7ff',
+  'secondaryColor':'#04142a',
+  'tertiaryColor':'#04142a',
+  'fontFamily':'Consolas, monospace'
+}}}%%
 flowchart LR
     A[("Economics degree")] --> B{{"Data Analyst\nUS Bangla Group"}}
     B --> C[("10M+ txns / day")]
@@ -26,66 +36,40 @@ flowchart LR
     D --> E(["Business decisions"])
 ```
 
-<br/>
+---
 
 ## 02 · Stack
 
-```mermaid
-flowchart LR
-    subgraph Languages
-        L1[Python]
-        L2[SQL]
-        L3[JavaScript]
-    end
-    subgraph "Data"
-        D1[Pandas]
-        D2[NumPy]
-        D3[PostgreSQL]
-        D4[Excel]
-    end
-    subgraph Visualization
-        V1[Power BI]
-        V2[Tableau]
-        V3[Metabase]
-        V4[Plotly]
-        V5[D3.js]
-    end
-    subgraph Frameworks
-        F1[Streamlit]
-        F2[React]
-        F3[Vite]
-    end
-    subgraph Platforms
-        P1[Git / GitHub]
-        P2[Jupyter]
-        P3[SurveyCTO]
-    end
-```
+| | |
+|:--|:--|
+| **Languages** | Python · SQL · JavaScript |
+| **Data** | Pandas · NumPy · PostgreSQL · Excel |
+| **Visualization** | Power BI · Tableau · Metabase · Plotly · D3.js |
+| **Frameworks** | Streamlit · React · Vite |
+| **Platforms** | Git/GitHub · Jupyter · SurveyCTO |
 
-<br/>
+---
 
-## 03 · Timeline
+## 03 · Experience
 
-```mermaid
-timeline
-    title Career & Education
-    2019 : Started BSS in Economics — East West University
-    2024 : R&D Intern @ ARCED Foundation
-         : Completed BSS in Economics
-    2025 : Associate @ Inspira Advisory and Consulting
-         : Data Analyst @ US Bangla Group
-```
+| Period | Role | Organization |
+|:--|:--|:--|
+| Jul 2025 – Present | Data Analyst | US Bangla Group |
+| Jan 2025 – Jul 2025 | Associate | Inspira Advisory and Consulting |
+| Apr 2024 – Jul 2024 | R&D Intern | ARCED Foundation |
 
-**Data Analyst** · US Bangla Group · *Jul 2025 – Present*
-Analyzing 10M+ daily e-commerce transactions, building operational KPI dashboards, cross-functional data validation.
+Currently analyzing 10M+ daily e-commerce transactions and building the operational KPI dashboards
+US Bangla Group runs on. Before that: market research and strategic advisory at Inspira, and data
+quality audits / survey management with SurveyCTO at ARCED.
 
-**Associate** · Inspira Advisory and Consulting · *Jan 2025 – Jul 2025*
-Market research, business evaluation, evidence-based strategic insights, client-facing reporting.
+**Education** — BSS in Economics, East West University (2019 – 2024). Applied Econometrics, Game
+Theory, Labor Economics, Project Analysis. Certifications in Python and pandas (DataCamp), and
+Prompt Engineering (NetCom Learning).
 
-**R&D Intern** · ARCED Foundation · *Apr 2024 – Jul 2024*
-Data quality audits for funded research, survey data management with SurveyCTO.
+**Next** — building depth in supply chain management (procurement, logistics, demand planning) to
+pair with the analytics side.
 
-<br/>
+---
 
 ## 04 · Projects
 
@@ -113,22 +97,9 @@ glassmorphism UI.
 
 `React` `Vite` — [repo →](https://github.com/Atikul-Dipto/Atikul-Dipto.github.io) · [live →](https://atikul-dipto.github.io/)
 
-<br/>
+---
 
-## 05 · Trajectory
-
-```mermaid
-flowchart LR
-    A(["Data Analytics\n(current)"]) -.-> B(["Supply Chain Management\n(in progress)"])
-    B --> C(["Analytics-driven\nsupply chain optimization"])
-```
-
-Currently building depth in supply chain management — procurement, logistics, demand planning —
-to pair with the analytics side.
-
-<br/>
-
-## 06 · Connect
+## 05 · Connect
 
 ```js
 const contact = {
