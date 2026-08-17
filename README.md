@@ -99,6 +99,15 @@ glassmorphism UI.
 
 `React` `Vite` — [repo →](https://github.com/Atikul-Dipto/Atikul-Dipto.github.io) · [live →](https://atikul-dipto.github.io/)
 
+```
+$ cd ats-resume-scanner
+```
+Scores resumes for ATS compatibility — formatting risks, missing sections, keyword gaps against
+a target job description — then searches live job boards for roles matching the candidate's
+extracted title, skills, and experience.
+
+`React` `FastAPI` `scikit-learn` `NLP` — [repo →](https://github.com/Atikul-Dipto/ats-resume-scanner)
+
 ---
 
 ## 05 · Connect
