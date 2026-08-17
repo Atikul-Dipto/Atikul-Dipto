@@ -106,7 +106,7 @@ Scores resumes for ATS compatibility — formatting risks, missing sections, key
 a target job description — then searches live job boards for roles matching the candidate's
 extracted title, skills, and experience.
 
-`React` `FastAPI` `scikit-learn` `NLP` — [repo →](https://github.com/Atikul-Dipto/ats-resume-scanner)
+`React` `FastAPI` `scikit-learn` `NLP` — [repo →](https://github.com/Atikul-Dipto/ats-resume-scanner) · [demo →](https://atikul-dipto.github.io/ats-resume-scanner/)
 
 ---
 
